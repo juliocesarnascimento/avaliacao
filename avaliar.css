@@ -63,11 +63,17 @@ list-style: 10px;
 
 
 
-    background-image: url(https://st1.uvnimg.com/be/a4/06ce40ca4ccb86c8f63cd1c9248a/capitao-patria-the-boys-0722-1600x900.jpg);
-
+   
 padding: 800px;
 
 
+flex-wrap: wrap;
+        max-width: 800px;
+        /*adptaçao da imagem*/
+        margin: 0 auto;
+        /* centralizar as div*/
+        margin-bottom: 80px;
+        text-align: center;
 
 
 
@@ -76,7 +82,13 @@ padding: 800px;
 
 
 
+.secao img{
 
+
+display: block;
+
+
+}
 
 
 
