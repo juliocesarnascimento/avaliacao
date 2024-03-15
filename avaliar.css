@@ -1,94 +1,209 @@
-*{
+* {
 
-margin: 0%;
+    margin: 0%;
 
-padding: 0;
+    padding: 0;
 
 
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 
 }
 
 
-.cabeca{
+.cabeca {
 
+    display: flex;
+
+
+    justify-content: space-between;
+
+
+    background-color:#878286;
+
+    padding: 60px;
+
+    align-items: center;
+
+
+    flex-wrap: wrap;
+
+}
+
+
+
+.cabeca i {
+
+
+
+    background-color: #88b6a3;
+
+    font-size: 100px;
+
+
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color:#b1ba8e;
+
+
+}
+
+
+
+.menu {
+
+    display: flex;
+
+
+
+}
+
+
+
+
+h1{
+
+text-align: center;
+margin-top: 50px;
+
+}
+
+
+
+
+
+.menu li {
+
+    margin-left: 10px;
+    list-style: none;
+
+
+}
+
+.secao {
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    /*adptaçao da imagem*/
+    margin: 0 auto;
+    /* centralizar as div*/
+    margin-bottom: 80px;
+    text-align: center;
+margin-top: 50px;
+
+
+
+}
+
+
+
+.secao img {
+
+    max-width: 300px;
+    display: block;
+
+
+}
+
+.secao div {
+
+    margin: 10px;
+    flex: 1 1 200px;
+text-align: center;
+
+}
+
+
+.secao2 {
+
+    background-color:#aa926a;
+
+    color: white;
+
+
+    padding: 100px;
+
+}
+
+
+.secao2 p{
+font-weight: 800;
+font-size: 20px;
+
+
+
+}
+
+
+
+footer{
+
+
+padding: 100px;
+background-color:#7a6448;
 display: flex;
-
-
 justify-content: space-evenly;
 
 
-background-color: black;
-
-padding: 60px;
-
-align-items: center;
-
-
-flex-wrap: wrap;
-
 }
 
 
 
-.cabeca i{
+
+footer i{
 
 
-
-background-color: chocolate;
-
-font-size: 100px;
+font-size: 40px;
 
 
 }
 
 
-.menu{
+    .list-footer li{
+list-style: none;
+margin-right: 15px;
+
+
+
+    }
+
+
+
+.list-footer li a{
+
+text-decoration: none;
+
+color:#bdba9e;
+
+
+
+
+}
+
+.list-footer{
 display: flex;
 
 
-}
 
-.menu li{
-
-    margin-left: 1opx;
-list-style: 10px;
-
-
-}
-
-.secao{
-
-
-
-
-   
-padding: 800px;
-
-
-flex-wrap: wrap;
-        max-width: 800px;
-        /*adptaçao da imagem*/
-        margin: 0 auto;
-        /* centralizar as div*/
-        margin-bottom: 80px;
-        text-align: center;
-
-
-
-
+    
 }
 
 
 
-.secao img{
 
 
-display: block;
+.list-footer :hover{
+
+transition: 0,5;
+background-color:#2f2e30 ;
+color:#ff0d51 ;
+border:#a88c8c ;
 
 
 }
-
-
-
